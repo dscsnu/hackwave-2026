@@ -1,0 +1,37 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--sand: #F5E6C8;
+	--sand-dark: #E8D4A8;
+	--cream: #FFF8EE;
+	--navy: #0A1628;
+	--navy-mid: #1A3580;
+	--navy-light: #1A5FAD;
+	--blue-bright: #4A9FE8;
+	--blue-crest: #6BBDE8;
+	--green-track: #2E7D32;
+	--green-bright: #4CAF50;
+	--gold-track: #B8860B;
+	--gold-bright: #E6A800;
+	--pixel: 'Press Start 2P', monospace;
+	--terminal: 'VT323', monospace;
+	--body: 'Nunito', sans-serif;
+}
+
+html, body {
+	height: 100%;
+	font-family: var(--body);
+	color: var(--navy);
+	background: var(--sand);
+	-webkit-font-smoothing: antialiased;
+	overflow-x: hidden;
+}
+
+::selection {
+	background: var(--navy-mid);
+	color: var(--sand);
+}
