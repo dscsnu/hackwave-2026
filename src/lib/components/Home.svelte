@@ -1129,10 +1129,10 @@
 
 	/* Info strip – stacked rows with label ↔ value layout */
 	.info-strip { flex-direction: column; border: 1.5px solid rgba(74,159,232,0.35); }
-	.ic { flex-direction: row; justify-content: space-between; align-items: center; padding: 0.45rem 0.75rem; border-bottom: 1px solid rgba(74,159,232,0.2); gap: 0; }
+	.ic { flex-direction: column; align-items: center; text-align: center; padding: 0.45rem 0.5rem; border-bottom: 1px solid rgba(74,159,232,0.2); gap: 0.2rem; }
 	.ic:last-child { border-bottom: none; }
-	.ik { font-size: 0.4rem; letter-spacing: 0.1em; }
-	.iv { font-size: 0.5rem; text-align: right; line-height: 1.4; }
+	.ik { font-size: 0.38rem; letter-spacing: 0.1em; }
+	.iv { font-size: 0.5rem; text-align: center; line-height: 1.4; }
 	.idiv { display: none; }
 
 	.hero-icons { gap: 0.75rem; }
