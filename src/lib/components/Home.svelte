@@ -253,8 +253,8 @@
 				<div class="hi"><span class="his">🏆</span><span class="hil">WIN</span></div>
 			</div>
 
-			<a href="https://forms.gle/U4w1uq6PH9pTWD6z6" target="_blank" rel="noopener noreferrer" class="register-cta">
-				REGISTER NOW →
+			<a href="/leaderboard" class="leaderboard-cta">
+				VIEW LEADERBOARD →
 			</a>
 		</div>
 	</div>
@@ -265,35 +265,6 @@
 			&gt;&gt;&gt; IDEAS FLOW. IMPACT GROWS. &nbsp;· · · · · · · · · · · · ·&nbsp; READY? LET'S HACK. &gt;&gt;&gt;
 		</span>
 	</div>
-</section>
-
-<!-- ═══════════════════════════════════════
-     COUNTDOWN
-════════════════════════════════════════ -->
-<section class="countdown-section">
-	<div class="cd-label">// LAUNCHING IN</div>
-	<div class="cd-grid">
-		<div class="cd-unit">
-			<div class="cd-num">{cdD}</div>
-			<div class="cd-sub">DAYS</div>
-		</div>
-		<div class="cd-colon">:</div>
-		<div class="cd-unit">
-			<div class="cd-num">{cdH}</div>
-			<div class="cd-sub">HRS</div>
-		</div>
-		<div class="cd-colon">:</div>
-		<div class="cd-unit">
-			<div class="cd-num">{cdM}</div>
-			<div class="cd-sub">MINS</div>
-		</div>
-		<div class="cd-colon cd-secs-colon">:</div>
-		<div class="cd-unit cd-secs-unit">
-			<div class="cd-num cd-secs">{cdS}</div>
-			<div class="cd-sub">SECS</div>
-		</div>
-	</div>
-	<div class="cd-date">JUNE 10 – JULY 22, 2026</div>
 </section>
 
 <!-- ═══════════════════════════════════════
@@ -621,6 +592,30 @@
 }
 
 .register-cta:active { transform:translate(2px,2px); box-shadow:3px 3px 0 #4A9FE8 !important; }
+
+.leaderboard-cta {
+	display: inline-block;
+	background: transparent;
+	color: var(--sand);
+	font-family: var(--pixel);
+	font-size: 0.55rem;
+	letter-spacing: 0.12em;
+	padding: 1rem 1.6rem;
+	margin-left: 0.9rem;
+	text-decoration: none;
+	width: fit-content;
+	border: 2px solid var(--blue-crest);
+	transition: transform 0.1s, box-shadow 0.1s, background 0.1s;
+	box-shadow: 5px 5px 0 rgba(107, 189, 232, 0.55);
+}
+
+.leaderboard-cta:hover {
+	transform: translate(-3px,-3px);
+	background: rgba(107, 189, 232, 0.08);
+	box-shadow: 8px 8px 0 rgba(107, 189, 232, 0.7);
+}
+
+.leaderboard-cta:active { transform:translate(2px,2px); box-shadow:3px 3px 0 rgba(107, 189, 232, 0.55) !important; }
 
 /* ticker */
 .ticker-bar { background:#050E22; border-top:2px solid #1A5FAD; overflow:hidden; padding:0.65rem 0; white-space:nowrap; flex-shrink:0; z-index:10; position:relative; }
